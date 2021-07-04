@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/src/com/gg/AdminVaildateServlet.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/gg/ExcelUtil.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/gg/FileUploadInfo.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/gg/FileUploadUtil.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/gg/LoginVaildateServlet.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/gg/RegisterVaildateServlet.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/gg/UploadFileProgressServlet.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/gg/UploadFileServlet.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/gg/UploadServlet.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/gg/UserDao.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/com/gg/VideoUpdateServlet.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/gg/VideoUpdateVServlet.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/gg/VideoUploadServlet.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/gg/VideoliulanServlet.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/gg/VideopinlunServlet.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/gg/addpinlunServlet.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/gg/addusermegServlet.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/gg/bookJDBC.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/gg/borrowServlet.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/gg/deleteServlet.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/gg/deleteVideoServlet.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/gg/deletequestionServlet.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/gg/deleteusermegServlet.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/gg/pinlundeleteServlet.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/gg/pinlunupdateServlet.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/gg/pinlunupdateVServlet.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/gg/returnServlet.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/gg/shijuanUploadServlet.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/gg/shitiupdateServlet.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/gg/updateServlet.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/gg/updateVServlet.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/gg/updateVVServlet.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/gg/updatequestionServlet.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/gg/updateusermegServlet.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/gg/user.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/gg/userlogin.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/gg/userupdateVVServlet.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/web/resource/lib/commons-dbutils-1.7.jar" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/web/resource/lib/json-lib-2.4-jdk15.jar" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/web/upload2.jsp" charset="UTF-8" />
+    <file url="PROJECT" charset="GBK" />
+  </component>
+</project>

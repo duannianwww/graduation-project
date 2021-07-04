@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_video_list"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:background="@drawable/courseback"
+    tools:context="com.biyesheji.activity.CourseListActivity">
+    <include layout="@layout/main_title_bar"/>
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:textStyle="bold"
+        android:id="@+id/tv_title_course"
+        />
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="47dp">
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:background="@drawable/video_list_intro_icon"
+            android:layout_height="fill_parent">
+            <TextView
+                android:id="@+id/tv_intro"
+                android:layout_width="fill_parent"
+                android:layout_centerInParent="true"
+                android:background="#3084FF"
+                android:gravity="center"
+                android:text="课程介绍"
+                android:textSize="20sp"
+                android:textColor="#FFFFFF"
+                android:layout_height="46dp" />
+        </RelativeLayout>
+        <View
+            android:layout_width="1dp"
+            android:background="#c3c3c3"
+            android:layout_height="48dp"/>
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:background="@drawable/video_list_intro_icon"
+            android:layout_height="fill_parent">
+            <TextView
+                android:id="@+id/tv_video"
+                android:layout_width="fill_parent"
+                android:layout_centerInParent="true"
+                android:background="#FFFFFF"
+                android:gravity="center"
+                android:text="课程大纲"
+                android:textSize="20sp"
+                android:textColor="#000000"
+                android:layout_height="46dp" />
+        </RelativeLayout>
+        <View
+            android:layout_width="1dp"
+            android:background="#c3c3c3"
+            android:layout_height="48dp"/>
+
+        <View
+            android:layout_width="1dp"
+            android:background="#c3c3c3"
+            android:layout_height="48dp"/>
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:background="@drawable/video_list_intro_icon"
+            android:layout_height="fill_parent">
+            <TextView
+                android:id="@+id/tv_pinlun"
+                android:layout_width="fill_parent"
+                android:layout_centerInParent="true"
+                android:background="#FFFFFF"
+                android:gravity="center"
+                android:text="评价"
+                android:textSize="20sp"
+                android:textColor="#000000"
+                android:layout_height="46dp" />
+        </RelativeLayout>
+    </LinearLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:background="@android:color/white"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:id="@+id/in_bottm"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@android:color/white"
+            android:orientation="vertical"
+            android:visibility="gone"
+            >
+            <ListView
+                android:layout_width="fill_parent"
+                android:layout_weight="1"
+                android:id="@+id/lv_pinlun_list_pay"
+                android:layout_height="fill_parent"
+                android:paddingBottom="20dp"
+                android:transcriptMode="alwaysScroll"
+                >
+            </ListView>
+
+        </LinearLayout>
+        <ListView
+            android:id="@+id/lv_video_list"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:divider="#e4e4e4"
+            android:dividerHeight="1dp"
+            android:scrollbars="none"
+            android:visibility="gone">
+
+        </ListView>
+        <ScrollView
+            android:id="@+id/sv_chapter_intro"
+            android:layout_width="fill_parent"
+            android:layout_marginBottom="40dp"
+            android:layout_height="fill_parent">
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="vertical">
+                <TextView
+                    android:lineSpacingMultiplier="1.5"
+                    android:id="@+id/tv_chapter_intro"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:padding="10dp"
+                    android:text="课程简介"
+                    android:textColor="@android:color/black"
+                    android:textSize="14sp"/>
+            </LinearLayout>
+        </ScrollView>
+        <include layout="@layout/canjiapopwindow"
+            android:id="@+id/weicanjia"
+            />
+        <include layout="@layout/canjiapopwindow2"
+            android:id="@+id/yicanjia"
+            android:visibility="gone"/>
+    </RelativeLayout>
+
+</LinearLayout>
